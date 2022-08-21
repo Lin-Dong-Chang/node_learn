@@ -12,6 +12,6 @@
 >> - [ ] write docker-compose.yml contains nginx and server
 
 ###### copy the npm install stuff to local
->> docker create -ti --name NAME IMAGE_NAME bash
->> docker cp NAME:/path/to/file /dest/to/file
->> docker rm -f NAME
+>> - docker create -ti --name NAME IMAGE_NAME bash
+>> - docker cp NAME:/path/to/file /dest/to/file
+>> - docker rm -f NAME
